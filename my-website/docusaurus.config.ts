@@ -96,6 +96,10 @@ const config: Config = {
               label: 'Tutorial',
               to: '/docs/intro',
             },
+            {
+              label: 'Contact us',
+              to: '/contact-us',
+            },
           ],
         },
         {
