@@ -10,6 +10,8 @@ Suspendisse varius elit quis diam lobortis, eget malesuada elit finibus. Praesen
 
 ![boop the snoot](../../static/img/P1030266small.JPG)
 
+*Image caption text*
+
 Proin sit amet justo vehicula, posuere nisi in, faucibus lacus. Integer finibus mauris ut ex dictum vulputate. Praesent eget arcu feugiat, aliquam augue id, scelerisque risus. Donec interdum mauris nec dignissim tempor.
 
 
@@ -18,6 +20,8 @@ Proin sit amet justo vehicula, posuere nisi in, faucibus lacus. Integer finibus 
     - **Sublevel 1** Sed commodo sapien a tellus feugiat iaculis.
 
 ![boop the snoot](../../static/img/P1030266small.JPG)
+
+*Image caption text*
 
 - **Level 1** Donec molestie est a sollicitudin dignissim. Aenean a urna ac dui aliquam gravida vitae vel purus. Praesent eget arcu feugiat, aliquam augue id, scelerisque risus.
 - **Level 1** Proin sit amet justo vehicula, posuere nisi in, faucibus lacus.
