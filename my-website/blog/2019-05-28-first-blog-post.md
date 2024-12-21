@@ -1,6 +1,6 @@
 ---
-slug: first-blog-post
-title: First Blog Post
+slug: release-01
+title: Release 0.1
 authors: [slorber, yangshun]
 tags: [hola, docusaurus]
 ---
@@ -9,4 +9,5 @@ Lorem ipsum dolor sit amet...
 
 <!-- truncate -->
 
-...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+- **New:** Initial release of the app.
+- **Added:** Core features, including Getting Started, User Guide, and Developer Resources.
