@@ -41,3 +41,17 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+If you do not have yarn installed, you might see a 'yarn: command not found' error. 
+Go to https://yarnpkg.com/getting-started/install for installation steps. 
+If the recommended steps do not work for you, use 
+
+```
+npm install -g yarn 
+```
+
+or even the force option
+
+```
+npm install -g yarn --force
+```
