@@ -1,7 +1,7 @@
-import type * as OpenApiPlugin from "docusaurus-plugin-openapi-docs";
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import type * as OpenApiPlugin from "docusaurus-plugin-openapi-docs";
 
 const config: Config = {
   title: 'My App Docs',
@@ -28,24 +28,24 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
 
   plugins: [
-    [
-      'docusaurus-plugin-openapi-docs',
-      {
-        id: "api", // plugin id
-        docsPluginId: "classic", // configured for preset-classic
-        config: {
-          petstore: {
-            specPath: "openapi/petstore.yaml", // change to match your OAS path
-            outputDir: "docs/petstore",
-            sidebarOptions: {
-              groupPathsBy: "tag",
-            },
-          } satisfies OpenApiPlugin.Options,
-        }
-      },
-    ]
-  ],
-  themes: ["docusaurus-theme-openapi-docs"], // export theme components
+   [
+     'docusaurus-plugin-openapi-docs',
+     {
+       id: "api", // plugin id
+       docsPluginId: "classic", // configured for preset-classic
+       config: {
+         petstore: {
+           specPath: "openapi/petstore.yaml", // change to match your OAS path
+           outputDir: "docs/petstore",
+           sidebarOptions: {
+             groupPathsBy: "tag",
+           },
+         } satisfies OpenApiPlugin.Options,
+       }
+     },
+   ]
+ ],
+ themes: ["docusaurus-theme-openapi-docs"], // export theme components
 
   i18n: {
     defaultLocale: 'en',
@@ -101,6 +101,11 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Documentation',
+        },
+        {
+          label: "Petstore API",
+          position: "left",
+          to: "/docs/category/petstore-api",
         },
         {to: '/blog', label: 'Release notes', position: 'left'},
         {
